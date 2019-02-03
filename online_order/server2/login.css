@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin:0;
+	padding:0;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(p2.jpg);
+	background-size:cover;
+	 
+	
+	
+}
+
+.login_form{
+	margin-top:100px;
+	margin-bottom:100px;
+	height:550px;
+	width:400px;
+	background:rgba(252,252,252,0.36);
+	top:50%;
+	left:50%;
+	position:absolute;
+	transform:translate(-50%,-50%);
+	color:rgba(17,15,15,1.00);
+}
+
+.customer_logo{
+	height:100px;
+	width:100px;
+	position:absolute;
+	border-radius:50%;
+	top:-10%;
+	left:30%; 
+	
+	
+}
+.form{
+	position:absolute;
+	margin-top:200px;
+	margin-left:20%;
+	font-family:"Roboto",sans-serif;
+	 
+	
+	
+	}
+	.form p{
+		padding:0;
+		margin:0;
+		font-weight:bold;
+		font-size:18px;
+	}
+	.form input{
+		width:100%;
+		margin-bottom:20px;
+	}
+	.form input[type="text"],input[type="password"]{
+		border:none;
+		border-bottom:1px solid rgba(0,0,0,1.00);
+		background:transparent;
+		outline:none;
+		height:40px;
+		font-size:16px;
+		 
+	}
+.form input[type="submit"]{
+		border:none;
+		 
+		background:rgba(10,72,240,1.00);
+		outline:none;
+		height:40px;
+		font-size:16px;
+		font-family:"Roboto",sans-serif;
+		border-radius:5px 2px;
+	}
+	h1{
+		padding:20px;
+		margin:20px;
+		font-family:"Roboto",sans-serif;
+		font-weight:bold;
+	}
+	.form input[type="submit"]:hover{
+		 
+	background-color:rgba(249,147,0,1.00);
+	border:1px solid rgba(249,147,0,1.00);
+	
+}
+		
+	

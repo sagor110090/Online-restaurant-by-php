@@ -1,0 +1,18 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body{
+	margin:0;
+	padding:0;
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(p2.jpg);
+	background-size:cover;
+	 
+	
+	
+}
+
+h1{
+
+	margin-left: 30px;
+}

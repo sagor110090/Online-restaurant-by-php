@@ -1,0 +1,54 @@
+
+
+body {
+  padding-top: 100px;
+  margin:0;
+  
+ 
+}
+body {
+    background-image: url("image/1.jpg");
+    background-color: #cccccc;
+	background-size: cover; 
+}
+@media (min-width: 992px) {
+  body {
+    padding-top: 100px;
+  }
+}
+
+
+h1{
+	color:white;
+	
+}
+.login{
+	float:right;
+	border:2px solid red;
+	list-style:none;
+	background: rgba(146,34,36,1.00);
+	
+	
+}
+.item{
+	text-align: center;
+	font-family:"Roboto",sans-serif;
+	font:15px;
+	padding:5px 30px;
+
+	
+
+
+}
+
+
+.item:hover{
+	color: aqua;
+}
+
+.item a{
+	
+	
+	color:white;
+}
+
